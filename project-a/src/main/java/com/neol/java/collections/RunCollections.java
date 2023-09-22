@@ -65,10 +65,24 @@ public class RunCollections {
         //testStack((Stack<Integer>)stack);
         //testPriorityQueue((PriorityQueue<Integer>) priorityQueue);
         //testArrayDeque((ArrayDeque<Integer>) arrayDeque);
-        testTreeSet((TreeSet<Integer>) treeSet);
+//        testTreeSet((TreeSet<Integer>) treeSet);
+        testTreeMap((TreeMap<Integer, Integer>) treeMap);
 
 
     }
+
+    private static void testTreeMap(TreeMap<Integer, Integer> treeMap) {
+        treeMap.put(54,100);
+        treeMap.put(110,19);
+        treeMap.put(-3, 9);
+        treeMap.put(330,12);
+        treeMap.put(0,1);
+        treeMap.put(10,10);
+        treeMap.put(-93, 1);
+
+        System.out.println(treeMap);
+    }
+
     // Very good at automatically sorting
     private static void testTreeSet(TreeSet<Integer> treeSet) {
         treeSet.add(4);
