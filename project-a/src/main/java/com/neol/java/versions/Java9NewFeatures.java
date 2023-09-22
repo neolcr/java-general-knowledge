@@ -66,8 +66,7 @@ public class Java9NewFeatures {
                 .collect(Collectors.toList())
                 .forEach(o -> System.out.println(o.isPresent()));
 
-        // 5 Reactive Streams (java.util.concurrent.Flow)
-        // Create example in package reactive
+
 
     }
 }
