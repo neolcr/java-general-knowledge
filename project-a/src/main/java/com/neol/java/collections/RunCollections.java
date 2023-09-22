@@ -66,7 +66,20 @@ public class RunCollections {
         //testPriorityQueue((PriorityQueue<Integer>) priorityQueue);
         //testArrayDeque((ArrayDeque<Integer>) arrayDeque);
 //        testTreeSet((TreeSet<Integer>) treeSet);
-        testTreeMap((TreeMap<Integer, Integer>) treeMap);
+        //testTreeMap((TreeMap<Integer, Integer>) treeMap);
+        treeHashSet((HashSet<Integer>) hashSet);
+
+
+    }
+
+    private static void treeHashSet(HashSet<Integer> hashSet) {
+        for(int i = 0 ; i < 100; i++){
+            hashSet.add(null);
+        }
+
+        for (Integer integer : hashSet) {
+            System.out.println(integer);
+        }
 
 
     }
