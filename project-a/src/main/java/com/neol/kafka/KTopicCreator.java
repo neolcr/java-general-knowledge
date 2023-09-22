@@ -19,7 +19,7 @@ public class KTopicCreator {
         try(AdminClient adminClient = AdminClient.create(getProperties())){
             NewTopic newTopic = new NewTopic(topic, partitions, (short) replicationFactor);
             adminClient.createTopics(Collections.singletonList(newTopic)).all().get();
-            System.out.println("Created topic: " + topic);
+            System.out.println("Created topic: " + newTopic.name());
         }catch (Exception e){
             e.printStackTrace();
         }

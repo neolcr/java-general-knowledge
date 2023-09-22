@@ -42,6 +42,7 @@ class ConsumerThread implements Runnable {
                         + " Topic: " + r.topic()
                         + " Partition: " + r.partition()
                         + " Offset: " + r.offset()
+                        + " Timestamp: " + r.timestamp()
                 );
             });
         }

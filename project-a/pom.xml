@@ -27,6 +27,42 @@
             <artifactId>kafka_2.13</artifactId>
             <version>2.8.0</version> <!-- Use the same Kafka version as the client -->
         </dependency>
+
+        <!-- Spring Core Container, including Spring DI/IoC -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-core</artifactId>
+            <version>5.3.10</version>
+        </dependency>
+
+        <!-- Spring Context, for ApplicationContext and BeanFactory -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>5.3.10</version>
+        </dependency>
+
+        <!-- Spring AOP (Aspect-Oriented Programming) -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-aop</artifactId>
+            <version>5.3.10</version>
+        </dependency>
+
+        <!-- Spring Web (for web applications) -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+            <version>5.3.10</version>
+        </dependency>
+
+        <!-- Spring Boot (if you're using Spring Boot) -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+            <version>2.5.5</version>
+        </dependency>
+
     </dependencies>
 
 

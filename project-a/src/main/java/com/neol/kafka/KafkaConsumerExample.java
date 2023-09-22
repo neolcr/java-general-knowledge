@@ -30,7 +30,8 @@ public class KafkaConsumerExample {
 
         IntStream.range(0, 100).forEach(i -> {
 
-            imProducer.send(topics.get(random.nextInt(3)), String.valueOf(i), "message"+i);
+//            imProducer.send(topics.get(random.nextInt(3)), String.valueOf(i), "message"+i);
+            imProducer.send(topica, String.valueOf(i), "message"+i);
             try {
                 Thread.sleep(100);
             } catch (InterruptedException e) {
