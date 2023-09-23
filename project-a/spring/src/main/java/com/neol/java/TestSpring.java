@@ -1,4 +1,4 @@
-package com.neol.java.spring;
+package com.neol.java;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
