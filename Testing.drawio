@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2023-09-24T18:59:10.611Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.5 Chrome/114.0.5735.243 Electron/25.3.1 Safari/537.36" etag="Gs46c2Rmz8TUP3jS9R2b" version="21.6.5" type="device" pages="2">
+<mxfile host="Electron" modified="2023-09-24T19:09:53.047Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.5 Chrome/114.0.5735.243 Electron/25.3.1 Safari/537.36" etag="dJGPxArKqw2gqgDWzJxs" version="21.6.5" type="device" pages="3">
   <diagram name="KINDS" id="in_1sEUQBc4oRiaucIEL">
     <mxGraphModel dx="1434" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -89,6 +89,65 @@
         </mxCell>
         <mxCell id="4lNVNQyGQVYyvvqS3Nd8-15" value="PROVIDES EARLY FEEDBACK" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
           <mxGeometry x="640" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="fQYmbSA1ofmvClFAn3WY" name="Page-3">
+    <mxGraphModel dx="1434" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SXmoub-DP91sUEM_Mxsq-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SXmoub-DP91sUEM_Mxsq-1" target="SXmoub-DP91sUEM_Mxsq-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SXmoub-DP91sUEM_Mxsq-1" value="JUNIT" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="240" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SXmoub-DP91sUEM_Mxsq-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SXmoub-DP91sUEM_Mxsq-2" target="SXmoub-DP91sUEM_Mxsq-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SXmoub-DP91sUEM_Mxsq-2" value="WIDELY USED TESTING FRAMEWORK IN JAVA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="215" y="220" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SXmoub-DP91sUEM_Mxsq-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SXmoub-DP91sUEM_Mxsq-4" target="SXmoub-DP91sUEM_Mxsq-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SXmoub-DP91sUEM_Mxsq-4" value="PRIMARILY USED FOR UNIT TESTING" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="215" y="360" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SXmoub-DP91sUEM_Mxsq-6" value="OFFERS ANNOTATIONS, ASSERTIONS, TEST RUNNERS TO SIMPLIFY TESTING" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="197.5" y="490" width="205" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SXmoub-DP91sUEM_Mxsq-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SXmoub-DP91sUEM_Mxsq-8" target="SXmoub-DP91sUEM_Mxsq-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SXmoub-DP91sUEM_Mxsq-8" value="TestNG" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="480" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SXmoub-DP91sUEM_Mxsq-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SXmoub-DP91sUEM_Mxsq-9" target="SXmoub-DP91sUEM_Mxsq-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SXmoub-DP91sUEM_Mxsq-9" value="UNIT TEST, INTEGRATION AND END-TO-END" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="480" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SXmoub-DP91sUEM_Mxsq-11" value="ADVANCED FEATURES LITE PARAMETERIZATION AND PARALLEL EXEC" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="445" y="360" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SXmoub-DP91sUEM_Mxsq-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SXmoub-DP91sUEM_Mxsq-13" target="SXmoub-DP91sUEM_Mxsq-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SXmoub-DP91sUEM_Mxsq-13" value="MOCKITO" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+          <mxGeometry x="680" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SXmoub-DP91sUEM_Mxsq-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SXmoub-DP91sUEM_Mxsq-14" target="SXmoub-DP91sUEM_Mxsq-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SXmoub-DP91sUEM_Mxsq-14" value="MOCKING FRAMEWORK&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+          <mxGeometry x="680" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SXmoub-DP91sUEM_Mxsq-16" value="CREATES MOCK AND STUB OBJECTS FOR UNIT TEST" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+          <mxGeometry x="670" y="360" width="140" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
