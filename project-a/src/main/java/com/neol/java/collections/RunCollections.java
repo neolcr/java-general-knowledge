@@ -64,10 +64,11 @@ public class RunCollections {
 
         //testStack((Stack<Integer>)stack);
         //testPriorityQueue((PriorityQueue<Integer>) priorityQueue);
+        testPriorityQueueCustomComparator();
         //testArrayDeque((ArrayDeque<Integer>) arrayDeque);
 //        testTreeSet((TreeSet<Integer>) treeSet);
         //testTreeMap((TreeMap<Integer, Integer>) treeMap);
-        treeHashSet((HashSet<Integer>) hashSet);
+        //treeHashSet((HashSet<Integer>) hashSet);
 
 
     }
@@ -150,7 +151,22 @@ public class RunCollections {
         System.out.println(queue.remove());
         System.out.println(queue.peek());
 
+    }
 
+    public static void testPriorityQueueCustomComparator(){
+        //Custom comparator
+        Comparator<Integer> custom = (a, b) -> b * 2;
+        PriorityQueue<Integer> priorityQueue = new PriorityQueue<>(custom);
+
+        priorityQueue.add(0);
+        priorityQueue.add(1);
+        priorityQueue.add(2);
+        priorityQueue.add(3);
+        priorityQueue.add(4);
+        System.out.println(priorityQueue);
+        while(!priorityQueue.isEmpty()){
+            System.out.println(priorityQueue.remove());
+        }
     }
 
     // STACK IS LIFO (Last In First Out)
