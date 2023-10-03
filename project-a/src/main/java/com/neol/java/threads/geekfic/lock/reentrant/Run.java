@@ -1,4 +1,4 @@
-package com.neol.java.threads.geekfic.lock;
+package com.neol.java.threads.geekfic.lock.reentrant;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -20,6 +20,7 @@ public class Run {
         ScheduledExecutorService executor2 = Executors.newSingleThreadScheduledExecutor();
 
         executor1.submit(() -> {
+            System.out.println(Thread.currentThread().getName());
            lock.lock();
             try {
                 Thread.sleep(2_000);
@@ -30,6 +31,7 @@ public class Run {
             }
         });
         executor2.scheduleAtFixedRate(() -> {
+            System.out.println(Thread.currentThread().getName());
             System.out.println("Locked " + lock.isLocked());
             System.out.println("Held by this thread: " + lock.isHeldByCurrentThread());
 //            System.out.println("Hold count: " + lock.getHoldCount());
@@ -59,6 +61,7 @@ public class Run {
     }
 
     static void increment(){
+        System.out.println(Thread.currentThread().getName());
         lock.lock();
         try{
             count += 1;
