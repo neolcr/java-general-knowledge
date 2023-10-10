@@ -11,12 +11,12 @@ public class TestGenerics {
         List lista = new ArrayList<>();
         lista.add("ejemplo");
         lista.add(0);
-        //String s = lista.get(0);
+//        String s = lista.get(0);
 
         // Generic in <>
         List<String> lista2 = new ArrayList<>();
         lista2.add("ejemplo");
-        //lista.add(0);
+//        lista2.add(0);
         String s = lista2.get(0);
 
         // Personal generic

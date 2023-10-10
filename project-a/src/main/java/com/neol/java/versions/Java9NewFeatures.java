@@ -38,8 +38,8 @@ public class Java9NewFeatures {
         System.out.println(api.getValue());
 
         // 1 Interface private & static private methods
-        InterfaceWithPrivateImpl interfaceWithPrivate = new InterfaceWithPrivateImpl();
-        System.out.println(interfaceWithPrivate.defaultMethod());
+    InterfaceWithPrivateImpl interfaceWithPrivate = new InterfaceWithPrivateImpl();
+    System.out.println(interfaceWithPrivate.defaultMethod());
 
         // 2 New HttpClient
         HttpClient httpClient = HttpClient.newHttpClient();
