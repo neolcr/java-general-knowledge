@@ -16,4 +16,12 @@ public class ProductService {
     public Flux<Product> getAll(){
         return productProxy.getAll();
     }
+
+    public Flux<Product> getAll1(){
+        return productProxy.getAll1();
+    }
+
+    public Flux<Product> getAll2(){
+        return productProxy.getAll2();
+    }
 }

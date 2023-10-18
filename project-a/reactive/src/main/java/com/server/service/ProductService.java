@@ -13,10 +13,23 @@ public class ProductService {
         // Fake data
         return Flux.fromStream(
                 Stream.of(
+                        new Product(""),
                         new Product("Beer"),
                         new Product("Chocolate"),
                         new Product("Wine"),
                         new Product("Pasta")
+                )).delayElements(Duration.ofSeconds(5));
+    }
+
+    public Flux<Product> getAll1(){
+        // Fake data
+        return Flux.fromStream(
+                Stream.of(
+                        new Product("Whey"),
+                        new Product("Milk"),
+                        new Product(""),
+                        new Product("Oat"),
+                        new Product("Eggs")
                 )).delayElements(Duration.ofSeconds(5));
     }
 }

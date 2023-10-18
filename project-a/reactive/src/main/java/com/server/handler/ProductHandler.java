@@ -16,9 +16,14 @@ public class ProductHandler {
     }
 
     public Mono<ServerResponse> getAll(ServerRequest req){
-        System.out.println(req.attribute("request"));
         return ServerResponse.ok()
                 .contentType(MediaType.TEXT_EVENT_STREAM)
                 .body(productService.getAll(), Product.class);
+    }
+
+    public Mono<ServerResponse> getAll1(ServerRequest req){
+        return ServerResponse.ok()
+                .contentType(MediaType.TEXT_EVENT_STREAM)
+                .body(productService.getAll1(), Product.class);
     }
 }

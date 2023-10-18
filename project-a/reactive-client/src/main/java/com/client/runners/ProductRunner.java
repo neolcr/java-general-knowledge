@@ -23,8 +23,12 @@ public class ProductRunner implements CommandLineRunner {
 //                    System.out.println(product.getName());
 //                })
                 .subscribe(product -> {
-                    System.out.println("Subscribed product: " + product.getName());
+                    System.out.println("All: Subscribed product: " + product.getName());
                 });
+
+        productService.getAll1().subscribe(product -> System.out.println("All1: subscribed product: " + product.getName()));
+
+        productService.getAll2().subscribe(product -> System.out.println("All2: subscribed product: " + product.getName()));
 
     }
 }

@@ -14,6 +14,7 @@ public class RoutesConfig {
     public RouterFunction<ServerResponse> router(ProductHandler productHandler){
         return route()
                 .GET("/products", productHandler::getAll)
+                .GET("/products1", productHandler::getAll1)
                 .build();
     }
 }

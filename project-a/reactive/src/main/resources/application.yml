@@ -1,2 +1,6 @@
 server:
   port: 8881
+
+application:
+  title: Reactive server
+  version: 1.0.0
