@@ -8,9 +8,15 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring" />
         <module name="activemq" />
-        <module name="reactive" />
         <module name="reactive-client" />
         <module name="reactive-commons" />
+        <module name="reactive-explanation-a" />
+      </profile>
+      <profile name="Annotation profile for java-general-a" enabled="true">
+        <sourceOutputDir name="../reactive-client/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../reactive-client/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="reactive" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

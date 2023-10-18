@@ -15,6 +15,7 @@
         <module>routes</module>
         <module>reactive-client</module>
         <module>reactive-commons</module>
+        <module>reactive-explanation-a</module>
     </modules>
 
     <properties>
