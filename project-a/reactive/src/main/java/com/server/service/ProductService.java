@@ -32,4 +32,16 @@ public class ProductService {
                         new Product("Eggs")
                 )).delayElements(Duration.ofSeconds(5));
     }
+
+    public Flux<Product> getAll2(){
+        // Fake data
+        return Flux.fromStream(
+                Stream.of(
+                        new Product("Peanuts"),
+                        new Product("Hazelnuts"),
+                        new Product("Meat"),
+                        new Product("Orange"),
+                        new Product("Banana")
+                )).delayElements(Duration.ofSeconds(5));
+    }
 }

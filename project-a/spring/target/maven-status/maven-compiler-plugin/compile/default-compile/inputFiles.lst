@@ -2,6 +2,7 @@
 /Users/enol/Documents/Tech/java-general-knowledge/project-a/spring/src/main/java/com/neol/java/TestSpring.java
 /Users/enol/Documents/Tech/java-general-knowledge/project-a/spring/src/main/java/com/neol/java/LoggingAspect.java
 /Users/enol/Documents/Tech/java-general-knowledge/project-a/spring/src/main/java/com/neol/java/DependencyClass.java
+/Users/enol/Documents/Tech/java-general-knowledge/project-a/spring/src/main/java/com/neol/java/BeanParameterInjection.java
 /Users/enol/Documents/Tech/java-general-knowledge/project-a/spring/src/main/java/com/neol/java/SetterInjection.java
 /Users/enol/Documents/Tech/java-general-knowledge/project-a/spring/src/main/java/com/neol/java/FieldInjection.java
 /Users/enol/Documents/Tech/java-general-knowledge/project-a/spring/src/main/java/com/neol/java/ConstructorInjection.java

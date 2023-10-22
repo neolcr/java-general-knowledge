@@ -1,0 +1,6 @@
+com/client/config/WebClientConfig.class
+com/client/ReactiveRun.class
+com/client/proxy/ProductProxy.class
+com/client/exceptions/ProductRetreiveException.class
+com/client/runners/ProductRunner.class
+com/client/services/ProductService.class

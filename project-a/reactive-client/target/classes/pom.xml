@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>reactive</artifactId>
+    <artifactId>reactive-client</artifactId>
 
     <properties>
         <spring.boot.version>2.5.4</spring.boot.version>

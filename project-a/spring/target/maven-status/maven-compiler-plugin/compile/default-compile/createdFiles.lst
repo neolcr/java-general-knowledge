@@ -2,6 +2,7 @@ com/neol/java/ConstructorInjection.class
 com/neol/java/SetterInjection.class
 com/neol/java/TestSpring.class
 com/neol/java/AppConfig.class
+com/neol/java/BeanParameterInjection.class
 com/neol/java/DependencyClass.class
 com/neol/java/FieldInjection.class
 com/neol/java/LoggingAspect.class

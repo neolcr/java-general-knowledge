@@ -15,6 +15,7 @@ public class RoutesConfig {
         return route()
                 .GET("/products", productHandler::getAll)
                 .GET("/products1", productHandler::getAll1)
+                .GET("/products2", productHandler::getAll2)
                 .build();
     }
 }

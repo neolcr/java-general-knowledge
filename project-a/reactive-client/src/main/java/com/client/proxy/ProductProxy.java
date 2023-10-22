@@ -52,7 +52,7 @@ public class ProductProxy {
 
     public Flux<Product> getAll2() {
         return webClient.get()
-                .uri("/products")
+                .uri("/products2")
                 .exchangeToFlux(res -> res.bodyToFlux(Product.class))
                 // predicate (condition)
 //                .onErrorResume(e -> !e.getMessage().isEmpty(), e -> Flux.just(new Product("Default")));

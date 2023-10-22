@@ -12,7 +12,6 @@
         <module>spring</module>
         <module>activemq</module>
         <module>reactive</module>
-        <module>routes</module>
         <module>reactive-client</module>
         <module>reactive-commons</module>
         <module>reactive-explanation-a</module>
