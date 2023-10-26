@@ -15,6 +15,7 @@
         <module>reactive-client</module>
         <module>reactive-commons</module>
         <module>reactive-explanation-a</module>
+        <module>security</module>
     </modules>
 
     <properties>

@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring" />
         <module name="activemq" />
+        <module name="security" />
         <module name="reactive" />
         <module name="reactive-client" />
         <module name="reactive-commons" />
