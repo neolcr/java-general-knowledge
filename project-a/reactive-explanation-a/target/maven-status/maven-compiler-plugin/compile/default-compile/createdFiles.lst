@@ -1,4 +1,7 @@
 com/explanation/ReactiveRun.class
+com/explanation/publishers/DemoPublisher.class
+com/explanation/controller/DemoController.class
+com/explanation/controller/DemoControllerB.class
+com/explanation/subscriptions/DemoSubscription.class
 com/explanation/subscribers/DemoSubscriber.class
 com/explanation/Caller.class
-com/explanation/controller/DemoController.class

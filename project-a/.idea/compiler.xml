@@ -16,6 +16,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="kotlin" target="11" />
       <module name="reactive-server" target="11" />
       <module name="routes" target="11" />
     </bytecodeTargetLevel>
